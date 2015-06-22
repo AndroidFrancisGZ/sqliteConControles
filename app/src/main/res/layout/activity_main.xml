@@ -31,12 +31,32 @@
         android:layout_height="wrap_content"
         android:id="@+id/et_Cliente" />
 
-    <Spinner
+    <!--<Spinner
         android:id="@+id/Spinner01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        />-->
+
+
+
+    <Spinner
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:id="@+id/sp_TipoSiembraCodigo"
+        android:visibility="gone"
+        
         />
 
+    <Spinner
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:id="@+id/sp_TipoSiembra"
+
+        />
   >
 
 
