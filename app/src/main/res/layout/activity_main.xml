@@ -57,6 +57,34 @@
         android:id="@+id/sp_TipoSiembra"
 
         />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/profundidadDeSiembraAdecuada"
+        android:id="@+id/textViewCondicionesDeSiembra" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/rdProfundidadDeSiembra">
+
+        <RadioButton android:id="@+id/rdProfundidadSi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opcionSi"
+           />
+
+        <RadioButton android:id="@+id/rdProfundidadNO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opcionNo"
+            />
+    </RadioGroup>
+
   >
 
 
@@ -69,7 +97,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Alta"
+            android:text="@string/alta"
             android:id="@+id/btn_alta"
             android:onClick="alta"
             android:layout_weight="1"
@@ -78,7 +106,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="consultar cliente"
+            android:text="@string/consulta"
             android:id="@+id/btn_consultar"
             android:onClick="consulta"
             android:layout_weight="1" />
@@ -92,7 +120,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Baja"
+            android:text="@string/baja"
             android:id="@+id/btn_baja"
             android:onClick="baja"
             android:layout_weight="1" />
@@ -100,10 +128,13 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Modificar"
+            android:text="@string/modificar"
             android:id="@+id/btn_modificar"
             android:onClick="modificacion"
             android:layout_weight="1" />
     </LinearLayout>
+
+
+
 
 </LinearLayout>

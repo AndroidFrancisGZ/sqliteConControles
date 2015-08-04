@@ -2,5 +2,15 @@
     <string name="app_name">SQLiteConControles</string>
 
     <string name="mensaje">Spinner</string>
+    <string name="profundidadDeSiembraAdecuada">Profundidad de siembra adecuada </string>
+
+    <string name="alta">Alta</string>
+    <string name="baja">Baja</string>
+    <string name="modificar">Modificar</string>
+    <string name="consulta">Consulta Cliente</string>
+
+    <string name="opcionSi">Si</string>
+    <string name="opcionNo">No</string>
+
     <string name="action_settings">Settings</string>
 </resources>

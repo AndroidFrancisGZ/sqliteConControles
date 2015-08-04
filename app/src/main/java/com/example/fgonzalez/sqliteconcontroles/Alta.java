@@ -2,7 +2,7 @@ package com.example.fgonzalez.sqliteconcontroles;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
-import android.content.Context;
+
 
 /**
  * Created by fgonzalez on 19/06/2015.

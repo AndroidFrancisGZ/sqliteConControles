@@ -4,7 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import junit.runner.Version;
+
 
 /**
  * Created by fgonzalez on 18/06/2015.
